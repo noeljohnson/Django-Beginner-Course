@@ -1,0 +1,20 @@
+<!--GTG-->
+<!DOCTYE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Posts</title>
+  </head>
+
+  <body>
+    <h1>Message board for your homepage</h1>
+      <ul>
+        {% for post in post_list %}
+          <li>{{ post.text  }}</li>
+        {% endfor %}
+      <ul>
+  </body>
+</html>
+
+<!--TYJC-->
